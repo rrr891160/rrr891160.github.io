@@ -1,0 +1,120 @@
+html {
+    color: #000;
+}
+
+body {
+    margin: 0px;
+    font-family: Microsoft JhengHei;
+}
+
+.header-wrap {
+    width: 100%;
+    height: 60px;
+}
+
+.header .logo{
+    position: absolute;
+    top: 10px;
+    left: 70px;
+    background: url(./img/logo.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 200px;
+    height: 40px;
+}
+
+.header {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    height: 60px;
+    border-bottom: #DCDEDD solid 2px;
+    background: #fff;
+}
+
+.header .nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 60px;
+    color: #a5a5a5;
+    font-size: 20px;
+}
+
+.header .nav li {
+    float: left;
+    min-width: 120px;
+    line-height: 60px;
+    text-align: center;
+    border-left: #DCDEDD solid 1px;
+    border-right: #DCDEDD solid 1px;
+    padding: 0 20px;
+    list-style:none;
+}
+
+.header .nav li:first-of-type {
+    border-left-width: 2px;
+}
+
+body,div,ul,li {
+    margin: 0;
+    padding: 0;
+}
+
+.cover {
+    width: 100%;
+    background: #fff;
+    margin-bottom: 14px;
+}
+
+.cover.full {
+    position: relative;
+    height: calc(100vh + 20px);
+    padding-top: 0;
+}
+
+.cover.full .cover-wrap {
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-attachment: fixed;
+}
+
+.cover .cover-wrap {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.cover.full .title-box {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+}
+
+.cover .title-box {
+    width: 600px;
+    background: #fff;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.cover .title-box h1 {
+    font-size: 32px;
+    text-align: center;
+    line-height: 1.5em;
+    font-family: 'Avenir Next', 'PingFang TC', 'Microsoft JhengHei';
+    font-weight: 600;
+}
+
+h1 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.6em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
