@@ -129,3 +129,33 @@ h1 {
     justify-content: center;
     flex-wrap: wrap;
 }
+
+.post-detail.small > div {
+    font-size: 16px;
+    padding: 0 60px 35px 60px;
+}
+
+.post-detail > div {
+    margin-bottom: 21px;
+}
+
+.post-detail {
+    text-align: center;
+    font-size: 14px;
+}
+
+.post-detail.small > div span {
+    font-size: 14px;
+}
+
+.post-detail > div span {
+    display: block;
+    color: #666;
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
